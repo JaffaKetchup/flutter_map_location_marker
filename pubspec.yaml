@@ -10,10 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_compass: ^0.5.0
-  flutter_map: ^0.10.1+1
-  geolocator: ^6.1.6
+  flutter_compass: ^0.6.0
+  geolocator: ^7.0.1
   latlong: ^0.6.1
+  flutter_map:
+    git:
+      url: https://github.com/JaffaKetchup/flutter_map.git
+  flutter_compass: ^0.6.0
 
 dev_dependencies:
   flutter_test:
