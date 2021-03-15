@@ -16,7 +16,6 @@ dependencies:
   flutter_map:
     git:
       url: https://github.com/JaffaKetchup/flutter_map.git
-  flutter_compass: ^0.6.0
 
 dev_dependencies:
   flutter_test:
