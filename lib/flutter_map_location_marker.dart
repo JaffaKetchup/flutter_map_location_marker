@@ -193,6 +193,7 @@ class _LocationMarkerLayerState extends State<LocationMarkerLayer>
   void dispose() {
     _positionStreamSubscription.cancel();
     _moveToCurrentStreamSubscription?.cancel();
+    _animationController?.dispose();
     super.dispose();
   }
 
