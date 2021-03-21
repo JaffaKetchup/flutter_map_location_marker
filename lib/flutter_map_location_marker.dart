@@ -185,7 +185,7 @@ class _LocationMarkerLayerState extends State<LocationMarkerLayer>
     _moveToCurrentStreamSubscription =
         widget.plugin.centerCurrentLocationStream?.listen((double zoom) {
       _moveMap(
-          LatLng(_currentPosition.latitude, _currentPosition.longitude), zoom);
+          LatLng(_currentPosition?.latitude ?? 0, _currentPosition?.longitude ?? 0), zoom);
     });
   }
 
