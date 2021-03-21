@@ -178,7 +178,7 @@ class _LocationMarkerLayerState extends State<LocationMarkerLayer>
           break;
       }
       if (centerCurrentLocation) {
-        _moveMap(LatLng(_currentPosition.latitude, _currentPosition.longitude),
+        _moveMap(LatLng(_currentPosition?.latitude ?? 0, _currentPosition?.longitude ?? 0),
             widget.map.zoom);
       }
     });
