@@ -13,10 +13,7 @@ dependencies:
   flutter_compass: ^0.6.0
   geolocator: ^7.0.1
   latlong2: ^0.8.0
-  flutter_map:
-    git:
-      url: https://github.com/fleaflet/flutter_map.git
-      ref: issues/829-nullsafety
+  flutter_map: ^0.13.1
 
 dev_dependencies:
   flutter_test:
